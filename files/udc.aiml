@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>
+        <random>
+            <li> I have no answer for that.</li>
+            <li> What was that?</li>
+            <li> I don't understand</li>
+            <li> Can you say that more clearly?</li>
+        </random>
+       </template>
+  </category>
+  
+    <category>
+    <pattern>Hi</pattern>
+    <template>
+        <random>
+            <li> Hello</li>
+            <li> Hola</li>
+            <li> नमस्ते</li>
+            <li> Salut</li>
+            <li> Ciao</li>
+            <li> مرحبا</li>
+        </random>
+       </template>
+  </category>
+  
+      <category>
+    <pattern>What would you like to know about coronavirus?</pattern>
+    <template>
+            <li> Latest numbers</li>
+            <li> Protect yourself</li>
+            <li> Your question is answered</li>
+            <li> Mythbusters</li>
+            <li> Travel advice</li>
+            <li> News & Press</li>
+            <li> Share</li>
+            <li> Donate now</li>
+       </template>
   </category>
 </aiml>
