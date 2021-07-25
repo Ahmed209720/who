@@ -28,8 +28,9 @@
   </category>
   
       <category>
-    <pattern>What would you like to know about coronavirus?</pattern>
+    <pattern>MORE</pattern>
     <template>
+            <li> What would you like to know about coronavirus?</li>
             <li> Latest numbers</li>
             <li> Protect yourself</li>
             <li> Your question is answered</li>
